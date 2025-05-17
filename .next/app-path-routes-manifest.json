@@ -9,7 +9,7 @@
   "/dashboard/test-cases/[id]/page": "/dashboard/test-cases/[id]",
   "/dashboard/test-cases/import/page": "/dashboard/test-cases/import",
   "/dashboard/(overview)/page": "/dashboard",
-  "/dashboard/test-cases/[id]/edit/page": "/dashboard/test-cases/[id]/edit",
   "/dashboard/test-cases/create/page": "/dashboard/test-cases/create",
+  "/dashboard/test-cases/[id]/edit/page": "/dashboard/test-cases/[id]/edit",
   "/dashboard/test-cases/page": "/dashboard/test-cases"
 }
