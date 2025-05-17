@@ -15,8 +15,11 @@ Follow these steps to get TestoQA up and running locally:
 1. **Install Dependencies**
 
    ```bash
-   npm install
+   pnpm install
    ```
+
+May also require
+**pnpm prisma generate; pnpm prisma migrate deploy**
 
 2. **Set Up Environment Variables**
 
@@ -25,6 +28,7 @@ Follow these steps to get TestoQA up and running locally:
    ```bash
    cp .env.example .env
    ```
+   also add `PORT=3000` to `.env` file
 
    > Edit `.env` and update the variables as needed.
 
