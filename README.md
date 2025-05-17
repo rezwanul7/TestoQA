@@ -1,5 +1,7 @@
 # 🚀 TestoQA
 
+**TestoQA** helps QA and Dev teams **collaborate, manage, and track software testing efforts**—so you ship quality faster.
+
 **Test Faster. Collaborate Better. Ship Confidently.**
 TestoQA is your unified platform where QA and Dev teams collaborate to manage, track, and organize the entire software
 testing lifecycle.
