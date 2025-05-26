@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/runner/work/nextjs-testo/nextjs-testo",
+    "outputFileTracingRoot": "/home/runner/work/testo-qa-workflow/testo-qa-workflow/nextjs-testo",
     "experimental": {
       "allowedDevOrigins": [],
       "nodeMiddleware": false,
@@ -176,7 +176,7 @@
       "forceSwcTransforms": false,
       "largePageDataBytes": 128000,
       "turbo": {
-        "root": "/home/runner/work/nextjs-testo/nextjs-testo"
+        "root": "/home/runner/work/testo-qa-workflow/testo-qa-workflow/nextjs-testo"
       },
       "typedRoutes": false,
       "typedEnv": false,
@@ -282,7 +282,7 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts"
   },
-  "appDir": "/home/runner/work/nextjs-testo/nextjs-testo",
+  "appDir": "/home/runner/work/testo-qa-workflow/testo-qa-workflow/nextjs-testo",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
@@ -304,6 +304,6 @@
     ".next/server/next-font-manifest.json"
   ],
   "ignore": [
-    "node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*"
+    "node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*"
   ]
 }
