@@ -1,15 +1,15 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/api/test-cases/import/route": "app/api/test-cases/import/route.js",
-  "/seed/route": "app/seed/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/query/route": "app/query/route.js",
+  "/seed/route": "app/seed/route.js",
   "/seed/test-cases/route": "app/seed/test-cases/route.js",
   "/page": "app/page.js",
   "/login/page": "app/login/page.js",
   "/dashboard/test-cases/[id]/page": "app/dashboard/test-cases/[id]/page.js",
   "/dashboard/test-cases/import/page": "app/dashboard/test-cases/import/page.js",
-  "/dashboard/(overview)/page": "app/dashboard/(overview)/page.js",
   "/dashboard/test-cases/[id]/edit/page": "app/dashboard/test-cases/[id]/edit/page.js",
   "/dashboard/test-cases/create/page": "app/dashboard/test-cases/create/page.js",
-  "/dashboard/test-cases/page": "app/dashboard/test-cases/page.js"
+  "/dashboard/test-cases/page": "app/dashboard/test-cases/page.js",
+  "/dashboard/(overview)/page": "app/dashboard/(overview)/page.js"
 }
