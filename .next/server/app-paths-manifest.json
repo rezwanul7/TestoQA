@@ -6,10 +6,10 @@
   "/seed/test-cases/route": "app/seed/test-cases/route.js",
   "/login/page": "app/login/page.js",
   "/page": "app/page.js",
-  "/dashboard/test-cases/[id]/page": "app/dashboard/test-cases/[id]/page.js",
   "/dashboard/test-cases/import/page": "app/dashboard/test-cases/import/page.js",
   "/dashboard/(overview)/page": "app/dashboard/(overview)/page.js",
+  "/dashboard/test-cases/[id]/edit/page": "app/dashboard/test-cases/[id]/edit/page.js",
+  "/dashboard/test-cases/[id]/page": "app/dashboard/test-cases/[id]/page.js",
   "/dashboard/test-cases/create/page": "app/dashboard/test-cases/create/page.js",
-  "/dashboard/test-cases/page": "app/dashboard/test-cases/page.js",
-  "/dashboard/test-cases/[id]/edit/page": "app/dashboard/test-cases/[id]/edit/page.js"
+  "/dashboard/test-cases/page": "app/dashboard/test-cases/page.js"
 }
