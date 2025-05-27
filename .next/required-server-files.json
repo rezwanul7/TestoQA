@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/runner/work/testo-qa-workflow/testo-qa-workflow/nextjs-testo",
+    "outputFileTracingRoot": "/home/runner/work/testo-qa-workflow/testo-qa-workflow",
     "experimental": {
       "allowedDevOrigins": [],
       "nodeMiddleware": false,
@@ -176,7 +176,7 @@
       "forceSwcTransforms": false,
       "largePageDataBytes": 128000,
       "turbo": {
-        "root": "/home/runner/work/testo-qa-workflow/testo-qa-workflow/nextjs-testo"
+        "root": "/home/runner/work/testo-qa-workflow/testo-qa-workflow"
       },
       "typedRoutes": false,
       "typedEnv": false,
@@ -282,7 +282,7 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts"
   },
-  "appDir": "/home/runner/work/testo-qa-workflow/testo-qa-workflow/nextjs-testo",
+  "appDir": "/home/runner/work/testo-qa-workflow/testo-qa-workflow",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

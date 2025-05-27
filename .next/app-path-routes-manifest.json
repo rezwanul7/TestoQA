@@ -1,15 +1,15 @@
 {
-  "/api/test-cases/import/route": "/api/test-cases/import",
   "/_not-found/page": "/_not-found",
+  "/api/test-cases/import/route": "/api/test-cases/import",
   "/query/route": "/query",
   "/seed/route": "/seed",
   "/seed/test-cases/route": "/seed/test-cases",
-  "/page": "/",
   "/login/page": "/login",
+  "/page": "/",
   "/dashboard/test-cases/[id]/page": "/dashboard/test-cases/[id]",
   "/dashboard/test-cases/import/page": "/dashboard/test-cases/import",
-  "/dashboard/test-cases/[id]/edit/page": "/dashboard/test-cases/[id]/edit",
+  "/dashboard/(overview)/page": "/dashboard",
   "/dashboard/test-cases/create/page": "/dashboard/test-cases/create",
   "/dashboard/test-cases/page": "/dashboard/test-cases",
-  "/dashboard/(overview)/page": "/dashboard"
+  "/dashboard/test-cases/[id]/edit/page": "/dashboard/test-cases/[id]/edit"
 }
