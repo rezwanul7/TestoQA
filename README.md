@@ -2,22 +2,28 @@
 
 **Test Faster. Collaborate Better. Ship Confidently.**
 
-**TestoQA** enables QA and Dev teams to **collaborate, manage, and track software testing efforts**—so you ship quality
-faster
-with confidence.
+**TestoQA** empowers QA and Dev teams to **collaborate, manage, and track software testing efforts**—so you can deliver
+high-quality software, faster.
+
+---
+
+## 📸 Screenshot
+
+![TestoQA Dashboard](./assets/screenshot.png)
 
 ---
 
 ## ✅ Prerequisites
 
-- **Node.js** `v18` or higher
-- **PostgreSQL** `v15` or higher
+* **Node.js** `v18` or higher
+* **PostgreSQL** `v15` or higher
+* **Docker** (optional, for Docker-based setup)
 
 ---
 
-## 🛠️ Installation Guide
+## 🛠️ Local Installation Guide
 
-Follow these steps to run TestoQA locally:
+Follow these steps to get TestoQA running locally:
 
 ### 1️⃣ Clone the Repository
 
@@ -26,16 +32,18 @@ git clone https://github.com/rezwanul7/TestoQA.git
 cd TestoQA
 ```
 
-### 2️⃣ Set Up Environment Variables
+### 2️⃣ Configure Environment Variables
 
-Copy the example environment file and update as needed:
+Copy the example environment file and update the values as needed:
 
 ```bash
 cp .env.example .env
 ```
 
-> 💡 Use `openssl rand -base64 32` to generate a secret key `AUTH_SECRET`.
-> For Windows: [Generate here](https://generate-secret.vercel.app/32)
+> 💡 Generate a secure `AUTH_SECRET` using:
+>
+> * macOS/Linux: `openssl rand -base64 32`
+> * Windows: Use [this generator](https://generate-secret.vercel.app/32)
 
 ### 3️⃣ Install Dependencies
 
@@ -43,12 +51,14 @@ cp .env.example .env
 npm install
 ```
 
-### 4️⃣ Generate Prisma Client & Run Migrations
+### 4️⃣ Setup Prisma Client & Apply Migrations
 
 ```bash
 npx prisma generate
 npx prisma migrate deploy
 ```
+
+> ✅ This will apply existing migrations to your PostgreSQL database.
 
 ### 5️⃣ Start the Application
 
@@ -60,19 +70,43 @@ PORT=3000 HOSTNAME=0.0.0.0 node server.js
 
 ## 🔐 Demo Credentials
 
-Use the following credentials to explore the app:
+Use the following credentials to explore a demo workspace:
 
-* **Email**: `testoqa@teamtesto.com`
-* **Password**: `teamtesto`
+* **Email:** `testoqa@teamtesto.com`
+* **Password:** `teamtesto`
 
 ---
 
 ## 🌱 Seed Sample Test Cases
 
-Quickly populate the system with sample data:
+To populate the app with sample test cases, visit:
 
 ```
 http://localhost:3000/seed/test-cases/
+```
+
+---
+
+## 🐳 Docker-Based Setup
+
+TestoQA includes a Docker-based setup for easy deployment.
+
+> **Requirements:**
+>
+> * Docker
+> * Docker Compose
+
+> ⚠️ On the first run, the application may take a few minutes to start as it applies database migrations and initializes
+> services.
+
+### 1️⃣ Prepare Environment Variables
+
+Ensure your `.env` file is configured as described above.
+
+### 2️⃣ Start the Application
+
+```bash
+docker compose up
 ```
 
 ---
