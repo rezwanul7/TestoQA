@@ -4,12 +4,12 @@
   "/query/route": "/query",
   "/seed/route": "/seed",
   "/seed/test-cases/route": "/seed/test-cases",
-  "/login/page": "/login",
   "/page": "/",
+  "/login/page": "/login",
+  "/dashboard/test-cases/[id]/page": "/dashboard/test-cases/[id]",
   "/dashboard/test-cases/import/page": "/dashboard/test-cases/import",
   "/dashboard/(overview)/page": "/dashboard",
   "/dashboard/test-cases/[id]/edit/page": "/dashboard/test-cases/[id]/edit",
-  "/dashboard/test-cases/[id]/page": "/dashboard/test-cases/[id]",
   "/dashboard/test-cases/create/page": "/dashboard/test-cases/create",
   "/dashboard/test-cases/page": "/dashboard/test-cases"
 }
