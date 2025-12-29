@@ -9,13 +9,13 @@ high-quality software, faster.
 
 ## 📸 Screenshot
 
-![TestoQA Dashboard](./assets/screenshot.png)
+![TestoQA Dashboard](./assets/screenshot-v1.png)
 
 ---
 
 ## ✅ Prerequisites
 
-* **Node.js** `v18` or higher
+* **Node.js** `v22` or higher
 * **PostgreSQL** `v15` or higher
 * **Docker** (optional, for Docker-based setup)
 
