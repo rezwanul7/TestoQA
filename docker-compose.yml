@@ -12,16 +12,15 @@ services:
       NODE_ENV: production
       PORT: 3000
       HOSTNAME: 0.0.0.0
-      DATABASE_URL: postgres://postgres:postgres@postgres:5432/testoqa
     env_file:
       - .env
+    volumes:
+      - ./uploads:/app/uploads
     restart: unless-stopped
 
   postgres:
     image: postgres:15-alpine
     container_name: testoqa-postgres
-    #    ports:
-    #      - '5433:5432' # Host:Container
     environment:
       POSTGRES_DB: testoqa
       POSTGRES_USER: postgres
@@ -30,5 +29,20 @@ services:
       - testoqa_postgres_data:/var/lib/postgresql/data
     restart: unless-stopped
 
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: testoqa-pgadmin
+    ports:
+      - '3033:80'
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@testoqa.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
 volumes:
   testoqa_postgres_data:
+  pgadmin_data:
