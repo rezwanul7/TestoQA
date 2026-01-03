@@ -47,7 +47,7 @@ services:
     image: rezwanul7/testoqa-tooling:latest
     container_name: testoqa-tooling
     env_file:
-      - .env.docker
+      - .env
     depends_on:
       - postgres
     restart: "no"
