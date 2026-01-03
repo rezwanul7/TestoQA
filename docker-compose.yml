@@ -43,6 +43,15 @@ services:
       - postgres
     restart: unless-stopped
 
+  testoqa-tooling:
+    image: rezwanul7/testoqa-tooling:latest
+    container_name: testoqa-tooling
+    env_file:
+      - .env.docker
+    depends_on:
+      - postgres
+    restart: "no"
+
 volumes:
   testoqa_postgres_data:
   pgadmin_data:
